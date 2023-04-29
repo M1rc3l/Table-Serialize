@@ -1,4 +1,4 @@
-return function serializeTable(val, name, skipnewlines, depth)
+return function (val, name, skipnewlines, depth)
     skipnewlines = skipnewlines or false
     depth = depth or 0
 
